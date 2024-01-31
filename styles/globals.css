@@ -2,32 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  padding: 0;
+  margin: 0;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.headers {
+  box-shadow: 0px 4px 10px 0px #0000001A;
+}
+ul li a{
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+.navigation-oppurtunitybg{
+  background: linear-gradient(180deg, #C9EBFC 2.49%, rgba(202, 236, 252, 0.34) 71.95%, rgba(255, 255, 255, 0) 100%);
+
+}
+.borderclass {
+  border: 1px solid #16a6ec;
+  border-radius: 10px;
+  height:12vh;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.studentplaced {
+  line-height: 0px;
+}
+
+.placed-section {
+  border: 1px solid #D1D1D1;
+  border-radius: 30px;
+  height: 320px;
+  padding-left:5rem;
+  padding-top: 1rem;
+}
+.akashtxt {
+  line-height: 0px;
+}
+.media-section {
+  display: flex;
+  justify-content: center;
 }
