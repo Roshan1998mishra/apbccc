@@ -29,4 +29,4 @@ const Mediapresence = () => {
   )
 }
 
-export default Mediapresence
+export default Mediapresence;

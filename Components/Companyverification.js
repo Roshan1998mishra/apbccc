@@ -22,7 +22,7 @@ const Companyverification = () => {
                 </div>
 
                 <div className='col-md-3'>
-                <Image src={certification3} alt='certification3'></Image>
+                <Image src={certification3} alt='certification3'></Image> 
                 </div>
 
                 <div className='col-md-3'>
